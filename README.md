@@ -58,11 +58,16 @@ This application is a small terminal with a set of commands that interface with 
 ## Installation
 ### Frontend
 - To run the frontend, navigate to the frontend directory and execute:
--npm install
--npm start
+  ```
+  npm install
+  npm start
+  ```
+
 ### Backend
 - To run the backend, navigate to the backend directory and execute:
--npm install
--npm start
+  ```
+  npm install
+  npm start
+  ```
 ### Additional Information
 - The backend uses the CSV reader library for handling CSV uploads.
