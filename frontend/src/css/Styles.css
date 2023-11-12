@@ -1,0 +1,60 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+.body{
+    background-image: url("./../assets/images/background.jpg");
+    height: 94.5%;
+}
+
+.terminal-overlay{
+    height: 94.6%;
+}
+
+.user-input{
+    color: #5B9263;
+    margin: 0;
+}
+
+.terminal-output{
+    margin-bottom: 20px;
+    color: #239bf5;
+}
+
+.terminal-input > p {
+    color: #5BD701;
+    margin: 0;
+    line-height: 14px;
+}
+
+.old-input >p{
+    color: #5BD701;
+    margin: 0;
+    line-height: 14px;
+}
+
+.one-output{
+    margin-top: 5px;
+}
+
+.linebreak-del{
+    color: #01A9E8 !important;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.cursor {
+    animation: blink 1.5s step-start infinite;
+}
